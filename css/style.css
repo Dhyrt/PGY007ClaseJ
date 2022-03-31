@@ -1,0 +1,40 @@
+
+.nav-link:hover {
+    background-color: grey;
+    color: white;
+} 
+
+.nav-link {
+    color: white;
+} 
+
+.nav-link:hover .fa {
+    transition: all 1s;
+    transform: rotate(360deg);
+    font-size: 20px;
+}
+
+.activo {
+    background-color: grey !important
+}
+
+.color-izq{
+    background-color: rgb(53, 52, 52);
+}
+
+.avatar{
+    background-color: white;
+    border-radius: 50%;
+    width:80px;
+    
+}
+
+.imgFondo{
+    background-image: url("../img/galaxy.gif");
+    background-size: cover;
+    background-position: center;
+}
+
+hr{
+    color: white;
+}
